@@ -10,7 +10,7 @@ ADMIN_ID = 8578580859
 
 USDT_ADDRESS = "TFybYDjYV5zquis8zxKbZLit1MxJ5b3Xbk"
 
-CHANNEL_LINK = "https://t.me/+Sgbibuk4vDIyNjJl"
+CHANNEL_LINK = "https://t.me/+xLBWBkkU65xkODVI"
 
 # ==========================
 
