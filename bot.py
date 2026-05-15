@@ -4,13 +4,13 @@ import qrcode
 
 # ========= CONFIG =========
 
-TOKEN = "8273870987:AAHaMJfCgmowIFVKmoZWhCrBc50rVC3yG74"
+TOKEN = "8517847786:AAEsB22cDLjOjluFr7bR8PQCVNN3XIqmqmM"
 
 ADMIN_ID = 8578580859
 
 USDT_ADDRESS = "TFybYDjYV5zquis8zxKbZLit1MxJ5b3Xbk"
 
-CHANNEL_LINK = "https://t.me/+rRoPq6QuHjM4MTQ9"
+CHANNEL_LINK = "https://t.me/+roZ2wn24wQA3YzE1"
 
 # ==========================
 
@@ -29,7 +29,7 @@ def start(message):
     text = """
 📚 Welcome!
 
-Get access to premium study resources, notes and private discussions.
+Get access to things NTA shouldn't know.
 
 Press Continue to proceed.
 """
@@ -66,9 +66,11 @@ def callbacks(call):
         terms = """
 📜 TERMS & CONDITIONS
 
+• Payment should be in USDT.
 • Payment verification may take a few minutes.
+• Please send exactly $65.
 • Send screenshot after payment.
-• Keep your Telegram username visible.
+• Keep your Telegram username same until verification.
 • Access will be provided after approval.
 """
 
@@ -109,7 +111,9 @@ def callbacks(call):
         caption = f"""
 💳 PAYMENT DETAILS
 
-Send exactly $15 USDT
+Send exactly $65 USDT
+
+Network: Tron (TRC20)
 
 📮 USDT Address:
 
@@ -201,7 +205,7 @@ def receive_photo(message):
         caption=caption
     )
 
-    # ADMIN ACTION BUTTONS
+    # ADMIN BUTTONS
 
     markup = types.InlineKeyboardMarkup()
 
